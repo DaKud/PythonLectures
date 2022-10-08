@@ -117,4 +117,16 @@
 # # ПОЛУЧИТЬ ВСЕ ЗНАЧЕНИЯ
 # for k in dictionary.values():
 #     print(k) # → ← ↓ ↑
-    
+
+#SET / МНОЖЕСТВА
+# colors = {'red','blue','green'}
+# print(colors) #{'red', 'blue', 'green'}
+# colors.add ('grey') # ДОБАВЛЯЕМ {'blue', 'grey', 'green', 'red'}
+# print(colors)
+# colors.remove('red') # УДАЛЯЕМ {'green', 'grey', 'blue'}
+# print(colors)
+# colors.discard('red') # УДАЛЯЕМ {'green', 'grey', 'blue'}
+# print(colors)
+# colors.clear() # {}
+# print(colors) #set()
+
