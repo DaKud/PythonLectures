@@ -25,3 +25,75 @@
 # data.close
 
 
+# FUNCTIONS AND MODULES
+
+# import lec1 as h # чтобы не прописывать название полностью
+
+# print(h.f(1))
+
+# def new_string (symbol, count = 3):
+#     return symbol * count
+# print (new_string('!', 5)) # /!!!!!/
+# print (new_string('!')) # TypeError missing 1 required...
+# print (new_string(4)) # /12/, т.к произойдет умножение на 3, когда обявили count = 3
+
+#Relative infinity - относительная бесконечность количества аргументов
+ 
+# def concatenatio(*params): 
+#     res: str = "" # логика как в работе со строкой, можно res: int = 0
+#     for item in params:
+#         res += item
+#     return res
+# print(concatenatio('a','s','d','w')) # /asdw/
+# print(concatenatio('a','l','d','2')) # /ald2/
+# print(concatenatio(1,2,3,4) # TypeError, а если res: int =0, то /10/ , числа  складываются
+
+# FIBONACCI
+# def fib(n):
+#     if n in [1,2]:
+#         return 1
+#     else:
+#         return fib(n-1) + fib (n-2)
+# list = []
+# for e in range (1,10):
+#     list.append(fib(e))
+# print(list)# 1 1 2 3 5 8 13 21 34
+
+# CORTEGE / Кортеж — упорядоченный набор фиксированной длины
+# НЕИЗМЕНЯЕМЫЙ, НЕЛЬЗЯ СДЕЛАТЬ a[0]= 12 
+# a = (3,4,5,45,566,0)
+# print(a[-2])
+
+# t = ()
+# print (type(t)) #type
+
+# t = (1,)
+# print (type(t)) #type
+
+# t = (1)
+# print (type(t)) #int
+
+# t = (28,9,1990)
+# print (type(t)) #type
+
+# colors = ['red','blue','green']
+# print(colors)  #['red','blue','green']
+# t = type(colors)
+# print(t)
+
+# t= tupe(['red','blue','green'])
+# print(t[0]) #red
+# print(t[2]) #blue
+# print(t[10]) #IndexError ryple index out of range
+# print(t[-2]) #green
+# print(t[-200]) #IndexError ryple index out of range
+
+# for e in t:
+#     print(e) #red blue green
+
+# Создвем список-> конвертируем в кортеж-> распаковываем кортеж в три независимые переменые
+# t = type(['red','blue','green'])
+# red, blue, green = t
+# print('r: {} b:{} g:{}') #r:red b: blue g: green
+
+
