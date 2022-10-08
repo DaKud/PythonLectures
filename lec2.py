@@ -96,4 +96,25 @@
 # red, blue, green = t
 # print('r: {} b:{} g:{}') #r:red b: blue g: green
 
+# DICTIONARIES / СЛОВАРИ - НЕУПОРЯДОЧЕННЫЕ КОЛЛЕКЦИИ ПРОИЗВОЛЬНЫХ ОБЪЕКТОВ С ДОСТУПОМ ПО КЛЮЧУ
 
+# dictionary = {}
+# dictionary = \
+#     {
+#         'up': '↑'
+#         'right': '→'
+#         'down': '↓'
+#         'left': '←'
+#     }
+# # print(dictionary) # {'up' : '↑','right': '→','down' : '↓','left' : '←'}
+# # print(dictionary['left']) # ←
+# # типы ключей могут отличаться
+
+# # ПОЛУЧИТЬ ВСЕ КЛЮЧИ
+# for k in dictionary.keys():
+#     print(k) # up right down left
+
+# # ПОЛУЧИТЬ ВСЕ ЗНАЧЕНИЯ
+# for k in dictionary.values():
+#     print(k) # → ← ↓ ↑
+    
