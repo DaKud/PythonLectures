@@ -17,16 +17,16 @@
 # print (type(value)) # TO SHOW THE TYPE
 # s = 'hello \nworld' # moving to another lvl string
 # print(s) # PRINT THE STRING
-# print (a,'-', b, '-', s)
-# print ('{} - {} - {}'.format(a,b,s)) # formating print
-# print ('{1} - {2} - {0}'.format(a,b,s)) # changing places
-# print (f'{a} - {b} - {s}') # interpolative print
+# print (a,'-', b, '-', s)  # OUTPUT WOULD LOOK LIKE /123 - 1.23 - hello world/
+# print ('{} - {} - {}'.format(a,b,s)) # formating print # OUTPUT WOULD LOOK LIKE /123 - 1.23 - hello world/
+# print ('{1} - {2} - {0}'.format(a,b,s)) # changing places # OUTPUT WOULD LOOK LIKE /1.23 - hello world - 123/
+# print (f'{a} - {b} - {s}') # interpolative print # OUTPUT WOULD LOOK LIKE /123 - 1.23 - hello world/
 
 # f = True
-# print (f)
+# print (f) # OUTPUT WOULD LOOK LIKE /True/
 
 # list = ['1', '2', '3', 'hello', 1, 2, 3, 4.5, True]
-# print(list)
+# print(list) #/['1','2',...]/
 
 # DATA INPUT AND OUTPUT
 # print, input
