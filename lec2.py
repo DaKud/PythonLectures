@@ -131,18 +131,46 @@
 # print(colors) #set()
 
 #SET METHODS
-a = {1,2,3,5,8}
-b = {2,5,8,13,21}
-c = a.copy() # c= {1,2,3,5,8} - МНОЖНСТВО НА ОСНОВЕ ИМЕЮЩЕГОСЯ
-u = a.union(b) # u = {1,2,3,5,8,13,21} - ОБЪЕДИНЕНИЕ МНОЖНСТВ
-i = a.intersection(b) #i = {8,2,5} - ПЕРЕСЕЧЕНИЕ
-dl = a.difference(b) #dl = {1,3} - РАЗНОСТЬ
-dr = b.difference(a) #dr = {13,21} - РАЗНОСТЬ
+# a = {1,2,3,5,8}
+# b = {2,5,8,13,21}
+# c = a.copy() # c= {1,2,3,5,8} - МНОЖНСТВО НА ОСНОВЕ ИМЕЮЩЕГОСЯ
+# u = a.union(b) # u = {1,2,3,5,8,13,21} - ОБЪЕДИНЕНИЕ МНОЖНСТВ
+# i = a.intersection(b) #i = {8,2,5} - ПЕРЕСЕЧЕНИЕ
+# dl = a.difference(b) #dl = {1,3} - РАЗНОСТЬ
+# dr = b.difference(a) #dr = {13,21} - РАЗНОСТЬ
 
-q = a \
-    .union(b)\
-    .difference(a.intersection(b))
-#{1,21,3,13}
+# q = a \
+#     .union(b)\
+#     .difference(a.intersection(b))
+# #{1,21,3,13}
 
-s = frozenset(a) # неизменяемый тип множества, никакие методы добавления /удаления НЕ работают
+# s = frozenset(a) # неизменяемый тип множества, никакие методы добавления /удаления НЕ работают
 
+#LISTS -СПИСКИ
+# list1= [1,2,3,4,5]
+# list2 = list1
+# for e in list1:
+#     print(e)
+# print()
+# for e in list2:
+#     print(e)
+
+# list1[0]=123
+# list2[1]=333
+# for e in list1:
+#     print(e)
+# print()
+# for e in list2:
+#     print(e)
+
+# list1= [1,2,3,4,5]
+# print(list1.pop(2)) # удаление псоледнего, либо (индекс) элемента
+# print(list1)
+
+# list1= [1,2,3,4,5]
+# print(list1.insert(2, 11)) # вставляем 11 между 2 и 3 , иднекс позиции 2
+# print(list1)
+
+# list1= [1,2,3,4,5]
+# print(list1.append(11))  # вставляем 11 В КОНЕЦ
+# print(list1)
